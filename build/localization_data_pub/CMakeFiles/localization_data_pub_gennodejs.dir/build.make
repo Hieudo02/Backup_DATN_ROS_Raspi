@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for localization_data_pub_gennodejs.
 
@@ -63,10 +70,18 @@ localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build: loca
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build
 
 localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/localization_data_pub && $(CMAKE_COMMAND) -P CMakeFiles/localization_data_pub_gennodejs.dir/cmake_clean.cmake
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/clean
 
 localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/localization_data_pub /home/pi/datn_navbot/build /home/pi/datn_navbot/build/localization_data_pub /home/pi/datn_navbot/build/localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/localization_data_pub && $(CMAKE_COMMAND) -P CMakeFiles/localization_data_pub_gennodejs.dir/cmake_clean.cmake
+.PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/clean
+
+localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/localization_data_pub /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/localization_data_pub /home/pi/datn_navbot_pi/build/localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/depend
 

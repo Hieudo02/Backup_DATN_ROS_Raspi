@@ -7,7 +7,11 @@ from pynput import keyboard
 import sys, termios, tty
 
 # Initialize serial communication
+<<<<<<< HEAD
 ser = serial.Serial('/dev/ttyAMA0', 115200, timeout = 100)  # Adjust the port and baud rate as needed
+=======
+ser = serial.Serial('/dev/ttyAMA0', 115200, timeout = 100)
+>>>>>>> Upload all file run on pi
 
 # Initial maximum speed
 max_speed = 1.0 # m/s

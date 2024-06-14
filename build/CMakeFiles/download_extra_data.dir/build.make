@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +74,10 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src /home/pi/datn_navbot/build /home/pi/datn_navbot/build /home/pi/datn_navbot/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

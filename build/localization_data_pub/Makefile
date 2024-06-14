@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/localization_data_pub/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/localization_data_pub/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,16 +171,25 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -185,6 +211,14 @@ sendUartSTM32/fast:
 # Convenience name for target.
 localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule:
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+.PHONY : depend
+
+# Convenience name for target.
+localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule:
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule
 
 # Convenience name for target.
@@ -194,12 +228,20 @@ ekf_odom_pub: localization_data_pub/CMakeFiles/ekf_odom_pub.dir/rule
 
 # fast build rule for target.
 ekf_odom_pub/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : ekf_odom_pub/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/rule
 
 # Convenience name for target.
@@ -209,12 +251,20 @@ rviz_click_to_2d: localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/rule
 
 # fast build rule for target.
 rviz_click_to_2d/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_click_to_2d/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +274,20 @@ actionlib_generate_messages_cpp: localization_data_pub/CMakeFiles/actionlib_gene
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/rule
 
 # Convenience name for target.
@@ -239,12 +297,20 @@ localization_data_pub_genpy: localization_data_pub/CMakeFiles/localization_data_
 
 # fast build rule for target.
 localization_data_pub_genpy/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_genpy.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_genpy/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -254,12 +320,20 @@ tf_generate_messages_eus: localization_data_pub/CMakeFiles/tf_generate_messages_
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +343,20 @@ actionlib_msgs_generate_messages_cpp: localization_data_pub/CMakeFiles/actionlib
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -284,12 +366,20 @@ tf_generate_messages_cpp: localization_data_pub/CMakeFiles/tf_generate_messages_
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +389,20 @@ localization_data_pub_generate_messages_cpp: localization_data_pub/CMakeFiles/lo
 
 # fast build rule for target.
 localization_data_pub_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +412,20 @@ tf_generate_messages_lisp: localization_data_pub/CMakeFiles/tf_generate_messages
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +435,20 @@ nav_msgs_generate_messages_lisp: localization_data_pub/CMakeFiles/nav_msgs_gener
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -344,12 +458,20 @@ tf2_msgs_generate_messages_eus: localization_data_pub/CMakeFiles/tf2_msgs_genera
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -359,12 +481,20 @@ actionlib_msgs_generate_messages_py: localization_data_pub/CMakeFiles/actionlib_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -374,12 +504,20 @@ actionlib_msgs_generate_messages_lisp: localization_data_pub/CMakeFiles/actionli
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/rule
 
 # Convenience name for target.
@@ -389,12 +527,20 @@ localization_data_pub_geneus: localization_data_pub/CMakeFiles/localization_data
 
 # fast build rule for target.
 localization_data_pub_geneus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_geneus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_geneus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -404,12 +550,20 @@ actionlib_msgs_generate_messages_eus: localization_data_pub/CMakeFiles/actionlib
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -419,12 +573,20 @@ nav_msgs_generate_messages_eus: localization_data_pub/CMakeFiles/nav_msgs_genera
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -434,12 +596,20 @@ localization_data_pub_generate_messages: localization_data_pub/CMakeFiles/locali
 
 # fast build rule for target.
 localization_data_pub_generate_messages/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -449,12 +619,20 @@ nav_msgs_generate_messages_nodejs: localization_data_pub/CMakeFiles/nav_msgs_gen
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -464,12 +642,20 @@ nav_msgs_generate_messages_cpp: localization_data_pub/CMakeFiles/nav_msgs_genera
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -479,12 +665,20 @@ tf_generate_messages_nodejs: localization_data_pub/CMakeFiles/tf_generate_messag
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -494,12 +688,20 @@ tf2_msgs_generate_messages_nodejs: localization_data_pub/CMakeFiles/tf2_msgs_gen
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -509,12 +711,20 @@ nav_msgs_generate_messages_py: localization_data_pub/CMakeFiles/nav_msgs_generat
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -524,12 +734,20 @@ actionlib_generate_messages_eus: localization_data_pub/CMakeFiles/actionlib_gene
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -539,12 +757,20 @@ actionlib_generate_messages_lisp: localization_data_pub/CMakeFiles/actionlib_gen
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -554,12 +780,20 @@ actionlib_generate_messages_nodejs: localization_data_pub/CMakeFiles/actionlib_g
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -569,12 +803,20 @@ actionlib_msgs_generate_messages_nodejs: localization_data_pub/CMakeFiles/action
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -584,12 +826,20 @@ localization_data_pub_gennodejs: localization_data_pub/CMakeFiles/localization_d
 
 # fast build rule for target.
 localization_data_pub_gennodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_gennodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_gennodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -599,12 +849,20 @@ actionlib_generate_messages_py: localization_data_pub/CMakeFiles/actionlib_gener
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/actionlib_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -614,12 +872,20 @@ tf2_msgs_generate_messages_cpp: localization_data_pub/CMakeFiles/tf2_msgs_genera
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/rule
 
 # Convenience name for target.
@@ -629,12 +895,20 @@ localization_data_pub_gencpp: localization_data_pub/CMakeFiles/localization_data
 
 # fast build rule for target.
 localization_data_pub_gencpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_gencpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_gencpp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -644,12 +918,20 @@ tf_generate_messages_py: localization_data_pub/CMakeFiles/tf_generate_messages_p
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/tf_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -659,12 +941,20 @@ localization_data_pub_generate_messages_eus: localization_data_pub/CMakeFiles/lo
 
 # fast build rule for target.
 localization_data_pub_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages_eus/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -674,12 +964,20 @@ localization_data_pub_generate_messages_lisp: localization_data_pub/CMakeFiles/l
 
 # fast build rule for target.
 localization_data_pub_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/rule
 
 # Convenience name for target.
@@ -689,12 +987,20 @@ localization_data_pub_genlisp: localization_data_pub/CMakeFiles/localization_dat
 
 # fast build rule for target.
 localization_data_pub_genlisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_genlisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_genlisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -704,12 +1010,20 @@ tf2_msgs_generate_messages_lisp: localization_data_pub/CMakeFiles/tf2_msgs_gener
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -719,12 +1033,20 @@ tf2_msgs_generate_messages_py: localization_data_pub/CMakeFiles/tf2_msgs_generat
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -734,12 +1056,20 @@ localization_data_pub_generate_messages_nodejs: localization_data_pub/CMakeFiles
 
 # fast build rule for target.
 localization_data_pub_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages_nodejs/fast
 
 # Convenience name for target.
 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -749,7 +1079,11 @@ localization_data_pub_generate_messages_py: localization_data_pub/CMakeFiles/loc
 
 # fast build rule for target.
 localization_data_pub_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/build.make localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub_generate_messages_py/fast
 
 src/ekf_odom_pub.o: src/ekf_odom_pub.cpp.o
@@ -758,7 +1092,11 @@ src/ekf_odom_pub.o: src/ekf_odom_pub.cpp.o
 
 # target to build an object file
 src/ekf_odom_pub.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/ekf_odom_pub.cpp.o
 
 src/ekf_odom_pub.i: src/ekf_odom_pub.cpp.i
@@ -767,7 +1105,11 @@ src/ekf_odom_pub.i: src/ekf_odom_pub.cpp.i
 
 # target to preprocess a source file
 src/ekf_odom_pub.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/ekf_odom_pub.cpp.i
 
 src/ekf_odom_pub.s: src/ekf_odom_pub.cpp.s
@@ -776,7 +1118,11 @@ src/ekf_odom_pub.s: src/ekf_odom_pub.cpp.s
 
 # target to generate assembly for a file
 src/ekf_odom_pub.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/ekf_odom_pub.dir/build.make localization_data_pub/CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : src/ekf_odom_pub.cpp.s
 
 src/rviz_click_to_2d.o: src/rviz_click_to_2d.cpp.o
@@ -785,7 +1131,11 @@ src/rviz_click_to_2d.o: src/rviz_click_to_2d.cpp.o
 
 # target to build an object file
 src/rviz_click_to_2d.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/rviz_click_to_2d.cpp.o
 
 src/rviz_click_to_2d.i: src/rviz_click_to_2d.cpp.i
@@ -794,7 +1144,11 @@ src/rviz_click_to_2d.i: src/rviz_click_to_2d.cpp.i
 
 # target to preprocess a source file
 src/rviz_click_to_2d.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/rviz_click_to_2d.cpp.i
 
 src/rviz_click_to_2d.s: src/rviz_click_to_2d.cpp.s
@@ -803,6 +1157,7 @@ src/rviz_click_to_2d.s: src/rviz_click_to_2d.cpp.s
 
 # target to generate assembly for a file
 src/rviz_click_to_2d.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.s
 .PHONY : src/rviz_click_to_2d.cpp.s
 
@@ -833,6 +1188,11 @@ src/sendUartSTM32.cpp.s:
 	cd /home/pi/datn_navbot/build && $(MAKE) -f localization_data_pub/CMakeFiles/sendUartSTM32.dir/build.make localization_data_pub/CMakeFiles/sendUartSTM32.dir/src/sendUartSTM32.cpp.s
 .PHONY : src/sendUartSTM32.cpp.s
 
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/build.make localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.s
+.PHONY : src/rviz_click_to_2d.cpp.s
+
+>>>>>>> Upload all file run on pi
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -841,7 +1201,10 @@ help:
 	@echo "... depend"
 	@echo "... install/local"
 	@echo "... list_install_components"
+<<<<<<< HEAD
 	@echo "... sendUartSTM32"
+=======
+>>>>>>> Upload all file run on pi
 	@echo "... ekf_odom_pub"
 	@echo "... rviz_click_to_2d"
 	@echo "... rebuild_cache"
@@ -891,9 +1254,12 @@ help:
 	@echo "... src/rviz_click_to_2d.o"
 	@echo "... src/rviz_click_to_2d.i"
 	@echo "... src/rviz_click_to_2d.s"
+<<<<<<< HEAD
 	@echo "... src/sendUartSTM32.o"
 	@echo "... src/sendUartSTM32.i"
 	@echo "... src/sendUartSTM32.s"
+=======
+>>>>>>> Upload all file run on pi
 .PHONY : help
 
 
@@ -905,6 +1271,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "/home/pi/datn_navbot/devel/lib/rplidar_ros/rplidarNode"
   "/home/pi/datn_navbot/devel/lib/rplidar_ros/rplidarNode.pdb"
+=======
+  "/home/pi/datn_navbot_pi/devel/lib/rplidar_ros/rplidarNode"
+  "/home/pi/datn_navbot_pi/devel/lib/rplidar_ros/rplidarNode.pdb"
+>>>>>>> Upload all file run on pi
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"

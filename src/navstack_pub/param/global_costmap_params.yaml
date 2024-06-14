@@ -1,7 +1,13 @@
 global_costmap:
   global_frame: odom
+<<<<<<< HEAD
   update_frequency: 30.0
   publish_frequency: 30.0
   transform_tolerance: 0.3
   resolution: 0.1
 
+=======
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  resolution: 0.1
+>>>>>>> Upload all file run on pi

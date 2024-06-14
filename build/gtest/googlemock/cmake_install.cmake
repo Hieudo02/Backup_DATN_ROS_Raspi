@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/pi/datn_navbot/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/pi/datn_navbot_pi/install")
+>>>>>>> Upload all file run on pi
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +43,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/pi/datn_navbot/build/gtest/googlemock/gtest/cmake_install.cmake")
+=======
+  include("/home/pi/datn_navbot_pi/build/gtest/googlemock/gtest/cmake_install.cmake")
+>>>>>>> Upload all file run on pi
 
 endif()
 

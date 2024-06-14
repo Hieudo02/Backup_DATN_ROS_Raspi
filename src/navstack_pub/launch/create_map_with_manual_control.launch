@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <launch>
+<<<<<<< HEAD
     <!-- <param name ="/use_sim_time" value="true"/> -->
     
+=======
+>>>>>>> Upload all file run on pi
     <!-- <node name="manualcontrol_sub_node" pkg="navstack_pub" type="sub_control.py"/> -->
 
     <!-- /imu -->
@@ -11,15 +14,25 @@
     
     <!-- BEGIN: Set initial pose using .py file -->
     <!-- Define arguments with default values -->  
+<<<<<<< HEAD
     <!-- <arg name="x" default="0.509"/>
     <arg name="y" default="-0.193"/> 
     <arg name="yaw" default="1.599"/>
+=======
+    <arg name="x" default="0.0"/>
+    <arg name="y" default="0.0"/> 
+    <arg name="yaw" default="1.57"/>
+>>>>>>> Upload all file run on pi
 
     <node name="pub_initpose_node" pkg="navstack_pub" type="setInitialPose.py" output="screen">
         <param name="x" value="$(arg x)"/>
         <param name="y" value="$(arg y)"/>
         <param name="yaw" value="$(arg yaw)"/> 
+<<<<<<< HEAD
     </node> -->
+=======
+    </node>
+>>>>>>> Upload all file run on pi
     <!-- END: Set initial pose using .py file -->
 
     <!-- /odom -->

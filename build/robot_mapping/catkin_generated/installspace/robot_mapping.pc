@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/pi/datn_navbot/install
+=======
+prefix=/home/pi/datn_navbot_pi/install
+>>>>>>> Upload all file run on pi
 
 Name: robot_mapping
 Description: Description of robot_mapping

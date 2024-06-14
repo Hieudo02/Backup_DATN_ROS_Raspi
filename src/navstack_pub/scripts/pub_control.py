@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+<<<<<<< HEAD
+=======
+import threading
+
+import roslib; roslib.load_manifest('teleop_twist_keyboard')
+import rospy
+
+from geometry_msgs.msg import Twist
+
+import sys, select, termios, tty
+
+#-------------------------------------------------------
+
+>>>>>>> Upload all file run on pi
 from __future__ import print_function
 import rospy
 from std_msgs.msg import String
@@ -12,6 +26,7 @@ msg = """
 >> Moving around:
         w    
     a   s   d
+<<<<<<< HEAD
 
 >> release the key: stop
 
@@ -19,6 +34,11 @@ msg = """
 
 >> Esc to quit
                                                      
+=======
+>> release the key: stop
+>> e/r: increase/decrease max speeds by 10%
+>> Esc to quit                                     
+>>>>>>> Upload all file run on pi
                       #      #                       
                    #*          *#                    
                   #-             =#                  
@@ -44,6 +64,7 @@ msg = """
 
 print(msg)
 
+<<<<<<< HEAD
 # Define velocities for each command
 velocity = {
     'a': (-1.0, 1.0),  # Turn left 
@@ -53,6 +74,16 @@ velocity = {
 }
 
 max_speed = 1.0  # Initial maximum speed
+=======
+velocity = {
+    'a': (0.3, -0.3),  # Turn left 
+    'w': (0.3, 0.3),   # Move forward 
+    's': (-0.3, -0.3), # Move backward 
+    'd': (-0.3, 0.3),   # Turn right 
+}
+
+max_speed = 0.3  # Initial maximum speed
+>>>>>>> Upload all file run on pi
 
 def clear_last_line():
     """Clear the last line in the terminal."""
@@ -85,7 +116,11 @@ def on_press(key, pub):
 
 def on_release(key, pub):
     if hasattr(key, 'char') and key.char in velocity:
+<<<<<<< HEAD
         pub.publish("0.0,0.0")
+=======
+        pub.publish("0.0, 0.0")
+>>>>>>> Upload all file run on pi
     elif key == keyboard.Key.esc:
         return False
 

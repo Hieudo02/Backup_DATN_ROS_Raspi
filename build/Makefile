@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +144,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
@@ -636,6 +649,7 @@ rplidarNodeClient/fast:
 .PHONY : rplidarNodeClient/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named sendUartSTM32
 
 # Build rule for target.
@@ -649,6 +663,8 @@ sendUartSTM32/fast:
 .PHONY : sendUartSTM32/fast
 
 #=============================================================================
+=======
+>>>>>>> Upload all file run on pi
 # Target rules for targets named ekf_odom_pub
 
 # Build rule for target.
@@ -1906,7 +1922,10 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rplidarNodeClient"
+<<<<<<< HEAD
 	@echo "... sendUartSTM32"
+=======
+>>>>>>> Upload all file run on pi
 	@echo "... ekf_odom_pub"
 	@echo "... rviz_click_to_2d"
 	@echo "... actionlib_generate_messages_cpp"

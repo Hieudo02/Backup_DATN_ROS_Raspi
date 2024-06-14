@@ -4,7 +4,11 @@ import serial
 import time
 
 ser = serial.Serial(
+<<<<<<< HEAD
     port = '/dev/ttyAMA0',
+=======
+    port = '/dev/ttyUSB0',
+>>>>>>> Upload all file run on pi
     baudrate = 115200,
     parity = serial.PARITY_NONE,
     stopbits = serial.STOPBITS_ONE,
@@ -52,7 +56,11 @@ try:
         message = str(testVelR) + "r" + str(testVelL) + "l"
         ser.write(message.encode())
         ser.flush() # Xóa bộ nhớ đệm
+<<<<<<< HEAD
         time.sleep(0.01) # Add a delay of 1 second
+=======
+        time.sleep(0.01) # Add a delay of 0.01 second
+>>>>>>> Upload all file run on pi
 
 except KeyboardInterrupt:
     # Đóng kết nối khi nhấn Ctrl+C

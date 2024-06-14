@@ -1,4 +1,10 @@
 # Hashes of file build rules.
+<<<<<<< HEAD
 44ce2fc2f1dca4773aa9deef7c58910b /home/pi/datn_navbot/devel/share/roseus/ros/localization_data_pub/manifest.l
 816ece55cfdafa6d4f61d8b63c5d7dfe CMakeFiles/clean_test_results
 d5467c91e7686ba64fe5291ac6ce9606 localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus
+=======
+41ef70e3b5ad65ef60fad014179ecd7f /home/pi/datn_navbot_pi/devel/share/roseus/ros/localization_data_pub/manifest.l
+969725fde01787432345159905182572 CMakeFiles/clean_test_results
+c0e19cd661546dc92dc27b3333119d7f localization_data_pub/CMakeFiles/localization_data_pub_generate_messages_eus
+>>>>>>> Upload all file run on pi

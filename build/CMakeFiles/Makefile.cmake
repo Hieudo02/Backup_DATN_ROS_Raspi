@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "robot_model/catkin_generated/package.cmake"
   "rplidar_ros/catkin_generated/ordered_paths.cmake"
   "rplidar_ros/catkin_generated/package.cmake"
+<<<<<<< HEAD
   "/home/pi/datn_navbot/devel/share/localization_data_pub/cmake/localization_data_pub-msg-paths.cmake"
   "/home/pi/datn_navbot/src/CMakeLists.txt"
   "/home/pi/datn_navbot/src/localization_data_pub/CMakeLists.txt"
@@ -48,6 +49,25 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/pi/datn_navbot/src/robot_model/package.xml"
   "/home/pi/datn_navbot/src/rplidar_ros/CMakeLists.txt"
   "/home/pi/datn_navbot/src/rplidar_ros/package.xml"
+=======
+  "/home/pi/datn_navbot_pi/devel/share/localization_data_pub/cmake/localization_data_pub-msg-paths.cmake"
+  "/home/pi/datn_navbot_pi/src/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/localization_data_pub/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/localization_data_pub/package.xml"
+  "/home/pi/datn_navbot_pi/src/mpu_6050_driver/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/mpu_6050_driver/package.xml"
+  "/home/pi/datn_navbot_pi/src/mpu_6050_driver/setup.py"
+  "/home/pi/datn_navbot_pi/src/navstack_pub/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/navstack_pub/package.xml"
+  "/home/pi/datn_navbot_pi/src/robot_amcl/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/robot_amcl/package.xml"
+  "/home/pi/datn_navbot_pi/src/robot_mapping/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/robot_mapping/package.xml"
+  "/home/pi/datn_navbot_pi/src/robot_model/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/robot_model/package.xml"
+  "/home/pi/datn_navbot_pi/src/rplidar_ros/CMakeLists.txt"
+  "/home/pi/datn_navbot_pi/src/rplidar_ros/package.xml"
+>>>>>>> Upload all file run on pi
   "/opt/ros/noetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/noetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -399,7 +419,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake"
   "rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
   "rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "localization_data_pub/CMakeFiles/sendUartSTM32.dir/DependInfo.cmake"
+=======
+>>>>>>> Upload all file run on pi
   "localization_data_pub/CMakeFiles/ekf_odom_pub.dir/DependInfo.cmake"
   "localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/DependInfo.cmake"
   "localization_data_pub/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake"

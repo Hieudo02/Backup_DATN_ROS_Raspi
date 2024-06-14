@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/pi/datn_navbot/devel
+=======
+prefix=/home/pi/datn_navbot_pi/devel
+>>>>>>> Upload all file run on pi
 
 Name: rplidar_ros
 Description: Description of rplidar_ros

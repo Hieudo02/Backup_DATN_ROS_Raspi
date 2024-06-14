@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for tf_generate_messages_lisp.
 
@@ -63,10 +70,18 @@ localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build: tf_generat
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/build
 
 localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/localization_data_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/clean
 
 localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/localization_data_pub /home/pi/datn_navbot/build /home/pi/datn_navbot/build/localization_data_pub /home/pi/datn_navbot/build/localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/localization_data_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
+.PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/clean
+
+localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/localization_data_pub /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/localization_data_pub /home/pi/datn_navbot_pi/build/localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : localization_data_pub/CMakeFiles/tf_generate_messages_lisp.dir/depend
 

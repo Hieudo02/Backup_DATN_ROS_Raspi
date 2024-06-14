@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for dynamic_reconfigure_generate_messages_eus.
 
@@ -63,10 +70,18 @@ navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build: dyn
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/navstack_pub && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/navstack_pub /home/pi/datn_navbot/build /home/pi/datn_navbot/build/navstack_pub /home/pi/datn_navbot/build/navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/navstack_pub && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/cmake_clean.cmake
+.PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
+
+navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/navstack_pub /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/navstack_pub /home/pi/datn_navbot_pi/build/navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 

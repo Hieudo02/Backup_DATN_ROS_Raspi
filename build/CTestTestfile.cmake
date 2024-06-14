@@ -1,6 +1,11 @@
 # CMake generated Testfile for 
+<<<<<<< HEAD
 # Source directory: /home/pi/datn_navbot/src
 # Build directory: /home/pi/datn_navbot/build
+=======
+# Source directory: /home/pi/datn_navbot_pi/src
+# Build directory: /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

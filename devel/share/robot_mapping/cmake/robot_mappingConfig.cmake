@@ -67,14 +67,23 @@ set(robot_mapping_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(robot_mapping_SOURCE_PREFIX /home/pi/datn_navbot/src/robot_mapping)
   set(robot_mapping_DEVEL_PREFIX /home/pi/datn_navbot/devel)
+=======
+  set(robot_mapping_SOURCE_PREFIX /home/pi/datn_navbot_pi/src/robot_mapping)
+  set(robot_mapping_DEVEL_PREFIX /home/pi/datn_navbot_pi/devel)
+>>>>>>> Upload all file run on pi
   set(robot_mapping_INSTALL_PREFIX "")
   set(robot_mapping_PREFIX ${robot_mapping_DEVEL_PREFIX})
 else()
   set(robot_mapping_SOURCE_PREFIX "")
   set(robot_mapping_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(robot_mapping_INSTALL_PREFIX /home/pi/datn_navbot/install)
+=======
+  set(robot_mapping_INSTALL_PREFIX /home/pi/datn_navbot_pi/install)
+>>>>>>> Upload all file run on pi
   set(robot_mapping_PREFIX ${robot_mapping_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +119,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'robot_mapping' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'robot_mapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot/src/robot_mapping/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'robot_mapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot_pi/src/robot_mapping/${idir}'.  ${_report}")
+>>>>>>> Upload all file run on pi
     endif()
     _list_append_unique(robot_mapping_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +167,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/pi/datn_navbot/devel/lib;/home/pi/datn_navbot/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/pi/datn_navbot_pi/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> Upload all file run on pi
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

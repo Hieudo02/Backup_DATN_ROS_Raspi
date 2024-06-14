@@ -4,5 +4,9 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;move_base;nav_msgs;roscpp;rospy;sensor_msgs;std_msgs;tf;tf2_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lnavstack_pub".split(';') if "-lnavstack_pub" != "" else []
 PROJECT_NAME = "navstack_pub"
+<<<<<<< HEAD
 PROJECT_SPACE_DIR = "/home/pi/datn_navbot/install"
+=======
+PROJECT_SPACE_DIR = "/home/pi/datn_navbot_pi/install"
+>>>>>>> Upload all file run on pi
 PROJECT_VERSION = "0.0.0"

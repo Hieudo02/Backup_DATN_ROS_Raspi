@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for topic_tools_generate_messages_py.
 
@@ -63,10 +70,18 @@ robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build: topic_tools_ge
 .PHONY : robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build
 
 robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/robot_amcl && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/clean
 
 robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/robot_amcl /home/pi/datn_navbot/build /home/pi/datn_navbot/build/robot_amcl /home/pi/datn_navbot/build/robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/robot_amcl && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/clean
+
+robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/robot_amcl /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/robot_amcl /home/pi/datn_navbot_pi/build/robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : robot_amcl/CMakeFiles/topic_tools_generate_messages_py.dir/depend
 

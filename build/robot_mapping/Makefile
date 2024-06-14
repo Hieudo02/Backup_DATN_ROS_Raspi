@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/robot_mapping/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/robot_mapping/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ nodelet_generate_messages_nodejs: robot_mapping/CMakeFiles/nodelet_generate_mess
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -194,12 +235,20 @@ nodelet_generate_messages_cpp: robot_mapping/CMakeFiles/nodelet_generate_message
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -209,12 +258,20 @@ nodelet_generate_messages_eus: robot_mapping/CMakeFiles/nodelet_generate_message
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +281,20 @@ nodelet_generate_messages_lisp: robot_mapping/CMakeFiles/nodelet_generate_messag
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +304,20 @@ bond_generate_messages_cpp: robot_mapping/CMakeFiles/bond_generate_messages_cpp.
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -254,12 +327,20 @@ _catkin_empty_exported_target: robot_mapping/CMakeFiles/_catkin_empty_exported_t
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/build.make robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/build.make robot_mapping/CMakeFiles/_catkin_empty_exported_target.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -269,12 +350,20 @@ bond_generate_messages_eus: robot_mapping/CMakeFiles/bond_generate_messages_eus.
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/bond_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -284,12 +373,20 @@ bond_generate_messages_py: robot_mapping/CMakeFiles/bond_generate_messages_py.di
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_py.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_py.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +396,20 @@ bond_generate_messages_lisp: robot_mapping/CMakeFiles/bond_generate_messages_lis
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +419,20 @@ nodelet_generate_messages_py: robot_mapping/CMakeFiles/nodelet_generate_messages
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/build.make robot_mapping/CMakeFiles/nodelet_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -329,7 +442,11 @@ bond_generate_messages_nodejs: robot_mapping/CMakeFiles/bond_generate_messages_n
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/build.make robot_mapping/CMakeFiles/bond_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Help Target
@@ -367,6 +484,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

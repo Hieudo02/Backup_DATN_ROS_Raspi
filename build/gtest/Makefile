@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/gtest/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/gtest/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +171,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Help Target
@@ -191,6 +220,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

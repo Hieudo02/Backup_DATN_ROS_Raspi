@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/gtest/googlemock/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/gtest/googlemock/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Convenience name for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ gmock_main: gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -194,7 +235,11 @@ gmock: gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -203,7 +248,11 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -212,7 +261,11 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -221,7 +274,11 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -230,7 +287,11 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -239,7 +300,11 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -248,7 +313,11 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+>>>>>>> Upload all file run on pi
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -283,6 +352,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

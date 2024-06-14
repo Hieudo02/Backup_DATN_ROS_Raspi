@@ -67,14 +67,23 @@ set(mpu_6050_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(mpu_6050_driver_SOURCE_PREFIX /home/pi/datn_navbot/src/mpu_6050_driver)
   set(mpu_6050_driver_DEVEL_PREFIX /home/pi/datn_navbot/devel)
+=======
+  set(mpu_6050_driver_SOURCE_PREFIX /home/pi/datn_navbot_pi/src/mpu_6050_driver)
+  set(mpu_6050_driver_DEVEL_PREFIX /home/pi/datn_navbot_pi/devel)
+>>>>>>> Upload all file run on pi
   set(mpu_6050_driver_INSTALL_PREFIX "")
   set(mpu_6050_driver_PREFIX ${mpu_6050_driver_DEVEL_PREFIX})
 else()
   set(mpu_6050_driver_SOURCE_PREFIX "")
   set(mpu_6050_driver_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(mpu_6050_driver_INSTALL_PREFIX /home/pi/datn_navbot/install)
+=======
+  set(mpu_6050_driver_INSTALL_PREFIX /home/pi/datn_navbot_pi/install)
+>>>>>>> Upload all file run on pi
   set(mpu_6050_driver_PREFIX ${mpu_6050_driver_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +119,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'mpu_6050_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'mpu_6050_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot/src/mpu_6050_driver/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'mpu_6050_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot_pi/src/mpu_6050_driver/${idir}'.  ${_report}")
+>>>>>>> Upload all file run on pi
     endif()
     _list_append_unique(mpu_6050_driver_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +167,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/pi/datn_navbot/devel/lib;/home/pi/datn_navbot/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/pi/datn_navbot_pi/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> Upload all file run on pi
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

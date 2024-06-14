@@ -3,7 +3,11 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
+<<<<<<< HEAD
 python_script = '/home/pi/datn_navbot/src/mpu_6050_driver/scripts/imu_node.py'
+=======
+python_script = '/home/pi/datn_navbot_pi/src/mpu_6050_driver/scripts/imu_node.py'
+>>>>>>> Upload all file run on pi
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

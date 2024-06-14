@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/pi/datn_navbot/src/mpu_6050_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/pi/datn_navbot/install")
+=======
+# Install script for directory: /home/pi/datn_navbot_pi/src/mpu_6050_driver
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/pi/datn_navbot_pi/install")
+>>>>>>> Upload all file run on pi
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +46,38 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   include("/home/pi/datn_navbot/build/mpu_6050_driver/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pi/datn_navbot/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driver.pc")
+=======
+  include("/home/pi/datn_navbot_pi/build/mpu_6050_driver/catkin_generated/safe_execute_install.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pi/datn_navbot_pi/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driver.pc")
+>>>>>>> Upload all file run on pi
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu_6050_driver/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/pi/datn_navbot/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driverConfig.cmake"
     "/home/pi/datn_navbot/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driverConfig-version.cmake"
+=======
+    "/home/pi/datn_navbot_pi/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driverConfig.cmake"
+    "/home/pi/datn_navbot_pi/build/mpu_6050_driver/catkin_generated/installspace/mpu_6050_driverConfig-version.cmake"
+>>>>>>> Upload all file run on pi
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu_6050_driver" TYPE FILE FILES "/home/pi/datn_navbot/src/mpu_6050_driver/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu_6050_driver" TYPE FILE FILES "/home/pi/datn_navbot_pi/src/mpu_6050_driver/package.xml")
+>>>>>>> Upload all file run on pi
 endif()
 

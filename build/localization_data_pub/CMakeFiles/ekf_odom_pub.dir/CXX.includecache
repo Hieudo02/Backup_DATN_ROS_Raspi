@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/pi/datn_navbot/src/localization_data_pub/src/ekf_odom_pub.cpp
 ros/ros.h
 /home/pi/datn_navbot/src/localization_data_pub/src/ros/ros.h
@@ -13,6 +14,15 @@ std_msgs/Int16.h
 /home/pi/datn_navbot/src/localization_data_pub/src/std_msgs/Int16.h
 std_msgs/String.h
 /home/pi/datn_navbot/src/localization_data_pub/src/std_msgs/String.h
+=======
+/home/pi/datn_navbot_pi/src/localization_data_pub/src/ekf_odom_pub.cpp
+ros/ros.h
+/home/pi/datn_navbot_pi/src/localization_data_pub/src/ros/ros.h
+std_msgs/Int16.h
+/home/pi/datn_navbot_pi/src/localization_data_pub/src/std_msgs/Int16.h
+std_msgs/String.h
+/home/pi/datn_navbot_pi/src/localization_data_pub/src/std_msgs/String.h
+>>>>>>> Upload all file run on pi
 nav_msgs/Odometry.h
 -
 geometry_msgs/PoseStamped.h
@@ -22,7 +32,11 @@ tf2/LinearMath/Quaternion.h
 tf2_ros/transform_broadcaster.h
 -
 geometry_msgs/Twist.h
+<<<<<<< HEAD
 /home/pi/datn_navbot/src/localization_data_pub/src/geometry_msgs/Twist.h
+=======
+/home/pi/datn_navbot_pi/src/localization_data_pub/src/geometry_msgs/Twist.h
+>>>>>>> Upload all file run on pi
 actionlib_msgs/GoalStatusArray.h
 -
 serial/serial.h

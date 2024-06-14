@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/pi/datn_navbot/devel/setup.sh
+=======
+    local-name: /home/pi/datn_navbot_pi/devel/setup.sh
+>>>>>>> Upload all file run on pi

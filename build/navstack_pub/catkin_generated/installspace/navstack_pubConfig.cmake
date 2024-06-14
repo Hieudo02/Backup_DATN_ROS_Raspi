@@ -67,14 +67,23 @@ set(navstack_pub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(navstack_pub_SOURCE_PREFIX /home/pi/datn_navbot/src/navstack_pub)
   set(navstack_pub_DEVEL_PREFIX /home/pi/datn_navbot/devel)
+=======
+  set(navstack_pub_SOURCE_PREFIX /home/pi/datn_navbot_pi/src/navstack_pub)
+  set(navstack_pub_DEVEL_PREFIX /home/pi/datn_navbot_pi/devel)
+>>>>>>> Upload all file run on pi
   set(navstack_pub_INSTALL_PREFIX "")
   set(navstack_pub_PREFIX ${navstack_pub_DEVEL_PREFIX})
 else()
   set(navstack_pub_SOURCE_PREFIX "")
   set(navstack_pub_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(navstack_pub_INSTALL_PREFIX /home/pi/datn_navbot/install)
+=======
+  set(navstack_pub_INSTALL_PREFIX /home/pi/datn_navbot_pi/install)
+>>>>>>> Upload all file run on pi
   set(navstack_pub_PREFIX ${navstack_pub_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +163,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/pi/datn_navbot/install/lib;/home/pi/datn_navbot/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/pi/datn_navbot_pi/install/lib;/opt/ros/noetic/lib)
+>>>>>>> Upload all file run on pi
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

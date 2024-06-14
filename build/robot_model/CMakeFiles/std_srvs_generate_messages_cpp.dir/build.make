@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for std_srvs_generate_messages_cpp.
 
@@ -63,10 +70,18 @@ robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build: std_srvs_genera
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 
 robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/robot_model && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 
 robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/robot_model /home/pi/datn_navbot/build /home/pi/datn_navbot/build/robot_model /home/pi/datn_navbot/build/robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/robot_model && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_cpp.dir/cmake_clean.cmake
+.PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/robot_model /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/robot_model /home/pi/datn_navbot_pi/build/robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
 

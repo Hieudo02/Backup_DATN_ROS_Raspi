@@ -67,14 +67,23 @@ set(navstack_pub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(navstack_pub_SOURCE_PREFIX /home/pi/datn_navbot/src/navstack_pub)
   set(navstack_pub_DEVEL_PREFIX /home/pi/datn_navbot/devel)
+=======
+  set(navstack_pub_SOURCE_PREFIX /home/pi/datn_navbot_pi/src/navstack_pub)
+  set(navstack_pub_DEVEL_PREFIX /home/pi/datn_navbot_pi/devel)
+>>>>>>> Upload all file run on pi
   set(navstack_pub_INSTALL_PREFIX "")
   set(navstack_pub_PREFIX ${navstack_pub_DEVEL_PREFIX})
 else()
   set(navstack_pub_SOURCE_PREFIX "")
   set(navstack_pub_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(navstack_pub_INSTALL_PREFIX /home/pi/datn_navbot/install)
+=======
+  set(navstack_pub_INSTALL_PREFIX /home/pi/datn_navbot_pi/install)
+>>>>>>> Upload all file run on pi
   set(navstack_pub_PREFIX ${navstack_pub_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +100,15 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(navstack_pub_FOUND_CATKIN_PROJECT TRUE)
 
+<<<<<<< HEAD
 if(NOT "/home/pi/datn_navbot/src/navstack_pub/include " STREQUAL " ")
   set(navstack_pub_INCLUDE_DIRS "")
   set(_include_dirs "/home/pi/datn_navbot/src/navstack_pub/include")
+=======
+if(NOT "/home/pi/datn_navbot_pi/src/navstack_pub/include " STREQUAL " ")
+  set(navstack_pub_INCLUDE_DIRS "")
+  set(_include_dirs "/home/pi/datn_navbot_pi/src/navstack_pub/include")
+>>>>>>> Upload all file run on pi
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +125,11 @@ if(NOT "/home/pi/datn_navbot/src/navstack_pub/include " STREQUAL " ")
         message(FATAL_ERROR "Project 'navstack_pub' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'navstack_pub' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot/src/navstack_pub/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'navstack_pub' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/pi/datn_navbot_pi/src/navstack_pub/${idir}'.  ${_report}")
+>>>>>>> Upload all file run on pi
     endif()
     _list_append_unique(navstack_pub_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +173,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/pi/datn_navbot/devel/lib;/home/pi/datn_navbot/devel/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/pi/datn_navbot_pi/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> Upload all file run on pi
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

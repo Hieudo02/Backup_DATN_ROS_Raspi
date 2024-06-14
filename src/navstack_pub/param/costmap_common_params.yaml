@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 # a1m8
 obstacle_range: 10
 raytrace_range: 10
 
 # length: 0.48 
+=======
+obstacle_range: 2.5
+raytrace_range: 3.0
+
+# length: 0.48
+>>>>>>> Upload all file run on pi
 # width: 0.44
 footprint: [[-0.24, -0.22], [-0.24, 0.22], [0.24, 0.22], [0.24, -0.22]]
 
@@ -10,11 +17,19 @@ map_topic: /map
 subscribe_to_updates: true
 global_frame: odom
 robot_base_frame: base_link
+<<<<<<< HEAD
 update_frequency: 30.0
 publish_frequency: 30.0
 rolling_window: false
 
 transform_tolerance: 0.3
+=======
+update_frequency: 5.0
+publish_frequency: 5.0
+rolling_window: false
+
+transform_tolerance: 1.0
+>>>>>>> Upload all file run on pi
 
 plugins:
   - {name: static_layer, type: "costmap_2d::StaticLayer"}
@@ -30,4 +45,8 @@ obstacle_layer:
   laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
 
 inflation_layer:
+<<<<<<< HEAD
   inflation_radius: 0.1 # Safe distance from obstacles
+=======
+  inflation_radius: 1.0
+>>>>>>> Upload all file run on pi

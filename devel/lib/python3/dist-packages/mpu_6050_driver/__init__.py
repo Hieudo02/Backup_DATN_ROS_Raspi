@@ -6,7 +6,11 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
+<<<<<<< HEAD
 __extended_path = '/home/pi/datn_navbot/src/mpu_6050_driver/src'.split(';')
+=======
+__extended_path = '/home/pi/datn_navbot_pi/src/mpu_6050_driver/src'.split(';')
+>>>>>>> Upload all file run on pi
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

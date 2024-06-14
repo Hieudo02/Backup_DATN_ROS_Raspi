@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/rplidar_ros/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/rplidar_ros/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ roscpp_generate_messages_nodejs: rplidar_ros/CMakeFiles/roscpp_generate_messages
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +235,20 @@ roscpp_generate_messages_eus: rplidar_ros/CMakeFiles/roscpp_generate_messages_eu
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +258,20 @@ rosgraph_msgs_generate_messages_cpp: rplidar_ros/CMakeFiles/rosgraph_msgs_genera
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +281,20 @@ roscpp_generate_messages_cpp: rplidar_ros/CMakeFiles/roscpp_generate_messages_cp
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rplidarNode.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNode.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNode.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rplidarNode.dir/rule
 
 # Convenience name for target.
@@ -239,12 +304,20 @@ rplidarNode: rplidar_ros/CMakeFiles/rplidarNode.dir/rule
 
 # fast build rule for target.
 rplidarNode/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rplidarNode/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -254,12 +327,20 @@ rosgraph_msgs_generate_messages_eus: rplidar_ros/CMakeFiles/rosgraph_msgs_genera
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +350,20 @@ rosgraph_msgs_generate_messages_lisp: rplidar_ros/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -284,12 +373,20 @@ roscpp_generate_messages_py: rplidar_ros/CMakeFiles/roscpp_generate_messages_py.
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -299,12 +396,20 @@ rosgraph_msgs_generate_messages_nodejs: rplidar_ros/CMakeFiles/rosgraph_msgs_gen
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +419,20 @@ rosgraph_msgs_generate_messages_py: rplidar_ros/CMakeFiles/rosgraph_msgs_generat
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rplidar_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +442,20 @@ roscpp_generate_messages_lisp: rplidar_ros/CMakeFiles/roscpp_generate_messages_l
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
 
 # Convenience name for target.
@@ -344,7 +465,11 @@ rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/rule
 
 # fast build rule for target.
 rplidarNodeClient/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rplidarNodeClient/fast
 
 sdk/src/arch/linux/net_serial.o: sdk/src/arch/linux/net_serial.cpp.o
@@ -353,7 +478,11 @@ sdk/src/arch/linux/net_serial.o: sdk/src/arch/linux/net_serial.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/net_serial.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_serial.cpp.o
 
 sdk/src/arch/linux/net_serial.i: sdk/src/arch/linux/net_serial.cpp.i
@@ -362,7 +491,11 @@ sdk/src/arch/linux/net_serial.i: sdk/src/arch/linux/net_serial.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/net_serial.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_serial.cpp.i
 
 sdk/src/arch/linux/net_serial.s: sdk/src/arch/linux/net_serial.cpp.s
@@ -371,7 +504,11 @@ sdk/src/arch/linux/net_serial.s: sdk/src/arch/linux/net_serial.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/net_serial.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_serial.cpp.s
 
 sdk/src/arch/linux/net_socket.o: sdk/src/arch/linux/net_socket.cpp.o
@@ -380,7 +517,11 @@ sdk/src/arch/linux/net_socket.o: sdk/src/arch/linux/net_socket.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/net_socket.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_socket.cpp.o
 
 sdk/src/arch/linux/net_socket.i: sdk/src/arch/linux/net_socket.cpp.i
@@ -389,7 +530,11 @@ sdk/src/arch/linux/net_socket.i: sdk/src/arch/linux/net_socket.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/net_socket.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_socket.cpp.i
 
 sdk/src/arch/linux/net_socket.s: sdk/src/arch/linux/net_socket.cpp.s
@@ -398,7 +543,11 @@ sdk/src/arch/linux/net_socket.s: sdk/src/arch/linux/net_socket.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/net_socket.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/net_socket.cpp.s
 
 sdk/src/arch/linux/timer.o: sdk/src/arch/linux/timer.cpp.o
@@ -407,7 +556,11 @@ sdk/src/arch/linux/timer.o: sdk/src/arch/linux/timer.cpp.o
 
 # target to build an object file
 sdk/src/arch/linux/timer.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/timer.cpp.o
 
 sdk/src/arch/linux/timer.i: sdk/src/arch/linux/timer.cpp.i
@@ -416,7 +569,11 @@ sdk/src/arch/linux/timer.i: sdk/src/arch/linux/timer.cpp.i
 
 # target to preprocess a source file
 sdk/src/arch/linux/timer.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/timer.cpp.i
 
 sdk/src/arch/linux/timer.s: sdk/src/arch/linux/timer.cpp.s
@@ -425,7 +582,11 @@ sdk/src/arch/linux/timer.s: sdk/src/arch/linux/timer.cpp.s
 
 # target to generate assembly for a file
 sdk/src/arch/linux/timer.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/arch/linux/timer.cpp.s
 
 sdk/src/dataunpacker/dataunpacker.o: sdk/src/dataunpacker/dataunpacker.cpp.o
@@ -434,7 +595,11 @@ sdk/src/dataunpacker/dataunpacker.o: sdk/src/dataunpacker/dataunpacker.cpp.o
 
 # target to build an object file
 sdk/src/dataunpacker/dataunpacker.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/dataunpacker.cpp.o
 
 sdk/src/dataunpacker/dataunpacker.i: sdk/src/dataunpacker/dataunpacker.cpp.i
@@ -443,7 +608,11 @@ sdk/src/dataunpacker/dataunpacker.i: sdk/src/dataunpacker/dataunpacker.cpp.i
 
 # target to preprocess a source file
 sdk/src/dataunpacker/dataunpacker.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/dataunpacker.cpp.i
 
 sdk/src/dataunpacker/dataunpacker.s: sdk/src/dataunpacker/dataunpacker.cpp.s
@@ -452,7 +621,11 @@ sdk/src/dataunpacker/dataunpacker.s: sdk/src/dataunpacker/dataunpacker.cpp.s
 
 # target to generate assembly for a file
 sdk/src/dataunpacker/dataunpacker.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/dataunpacker.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/dataunpacker.cpp.s
 
 sdk/src/dataunpacker/unpacker/handler_capsules.o: sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
@@ -461,7 +634,11 @@ sdk/src/dataunpacker/unpacker/handler_capsules.o: sdk/src/dataunpacker/unpacker/
 
 # target to build an object file
 sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o
 
 sdk/src/dataunpacker/unpacker/handler_capsules.i: sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
@@ -470,7 +647,11 @@ sdk/src/dataunpacker/unpacker/handler_capsules.i: sdk/src/dataunpacker/unpacker/
 
 # target to preprocess a source file
 sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_capsules.cpp.i
 
 sdk/src/dataunpacker/unpacker/handler_capsules.s: sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
@@ -479,7 +660,11 @@ sdk/src/dataunpacker/unpacker/handler_capsules.s: sdk/src/dataunpacker/unpacker/
 
 # target to generate assembly for a file
 sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_capsules.cpp.s
 
 sdk/src/dataunpacker/unpacker/handler_hqnode.o: sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
@@ -488,7 +673,11 @@ sdk/src/dataunpacker/unpacker/handler_hqnode.o: sdk/src/dataunpacker/unpacker/ha
 
 # target to build an object file
 sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o
 
 sdk/src/dataunpacker/unpacker/handler_hqnode.i: sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
@@ -497,7 +686,11 @@ sdk/src/dataunpacker/unpacker/handler_hqnode.i: sdk/src/dataunpacker/unpacker/ha
 
 # target to preprocess a source file
 sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.i
 
 sdk/src/dataunpacker/unpacker/handler_hqnode.s: sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
@@ -506,7 +699,11 @@ sdk/src/dataunpacker/unpacker/handler_hqnode.s: sdk/src/dataunpacker/unpacker/ha
 
 # target to generate assembly for a file
 sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.s
 
 sdk/src/dataunpacker/unpacker/handler_normalnode.o: sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
@@ -515,7 +712,11 @@ sdk/src/dataunpacker/unpacker/handler_normalnode.o: sdk/src/dataunpacker/unpacke
 
 # target to build an object file
 sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o
 
 sdk/src/dataunpacker/unpacker/handler_normalnode.i: sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
@@ -524,7 +725,11 @@ sdk/src/dataunpacker/unpacker/handler_normalnode.i: sdk/src/dataunpacker/unpacke
 
 # target to preprocess a source file
 sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.i
 
 sdk/src/dataunpacker/unpacker/handler_normalnode.s: sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
@@ -533,7 +738,11 @@ sdk/src/dataunpacker/unpacker/handler_normalnode.s: sdk/src/dataunpacker/unpacke
 
 # target to generate assembly for a file
 sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.s
 
 sdk/src/hal/thread.o: sdk/src/hal/thread.cpp.o
@@ -542,7 +751,11 @@ sdk/src/hal/thread.o: sdk/src/hal/thread.cpp.o
 
 # target to build an object file
 sdk/src/hal/thread.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/hal/thread.cpp.o
 
 sdk/src/hal/thread.i: sdk/src/hal/thread.cpp.i
@@ -551,7 +764,11 @@ sdk/src/hal/thread.i: sdk/src/hal/thread.cpp.i
 
 # target to preprocess a source file
 sdk/src/hal/thread.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/hal/thread.cpp.i
 
 sdk/src/hal/thread.s: sdk/src/hal/thread.cpp.s
@@ -560,7 +777,11 @@ sdk/src/hal/thread.s: sdk/src/hal/thread.cpp.s
 
 # target to generate assembly for a file
 sdk/src/hal/thread.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/hal/thread.cpp.s
 
 sdk/src/rplidar_driver.o: sdk/src/rplidar_driver.cpp.o
@@ -569,7 +790,11 @@ sdk/src/rplidar_driver.o: sdk/src/rplidar_driver.cpp.o
 
 # target to build an object file
 sdk/src/rplidar_driver.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/rplidar_driver.cpp.o
 
 sdk/src/rplidar_driver.i: sdk/src/rplidar_driver.cpp.i
@@ -578,7 +803,11 @@ sdk/src/rplidar_driver.i: sdk/src/rplidar_driver.cpp.i
 
 # target to preprocess a source file
 sdk/src/rplidar_driver.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/rplidar_driver.cpp.i
 
 sdk/src/rplidar_driver.s: sdk/src/rplidar_driver.cpp.s
@@ -587,7 +816,11 @@ sdk/src/rplidar_driver.s: sdk/src/rplidar_driver.cpp.s
 
 # target to generate assembly for a file
 sdk/src/rplidar_driver.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/rplidar_driver.cpp.s
 
 sdk/src/sl_async_transceiver.o: sdk/src/sl_async_transceiver.cpp.o
@@ -596,7 +829,11 @@ sdk/src/sl_async_transceiver.o: sdk/src/sl_async_transceiver.cpp.o
 
 # target to build an object file
 sdk/src/sl_async_transceiver.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_async_transceiver.cpp.o
 
 sdk/src/sl_async_transceiver.i: sdk/src/sl_async_transceiver.cpp.i
@@ -605,7 +842,11 @@ sdk/src/sl_async_transceiver.i: sdk/src/sl_async_transceiver.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_async_transceiver.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_async_transceiver.cpp.i
 
 sdk/src/sl_async_transceiver.s: sdk/src/sl_async_transceiver.cpp.s
@@ -614,7 +855,11 @@ sdk/src/sl_async_transceiver.s: sdk/src/sl_async_transceiver.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_async_transceiver.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_async_transceiver.cpp.s
 
 sdk/src/sl_crc.o: sdk/src/sl_crc.cpp.o
@@ -623,7 +868,11 @@ sdk/src/sl_crc.o: sdk/src/sl_crc.cpp.o
 
 # target to build an object file
 sdk/src/sl_crc.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_crc.cpp.o
 
 sdk/src/sl_crc.i: sdk/src/sl_crc.cpp.i
@@ -632,7 +881,11 @@ sdk/src/sl_crc.i: sdk/src/sl_crc.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_crc.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_crc.cpp.i
 
 sdk/src/sl_crc.s: sdk/src/sl_crc.cpp.s
@@ -641,7 +894,11 @@ sdk/src/sl_crc.s: sdk/src/sl_crc.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_crc.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_crc.cpp.s
 
 sdk/src/sl_lidar_driver.o: sdk/src/sl_lidar_driver.cpp.o
@@ -650,7 +907,11 @@ sdk/src/sl_lidar_driver.o: sdk/src/sl_lidar_driver.cpp.o
 
 # target to build an object file
 sdk/src/sl_lidar_driver.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidar_driver.cpp.o
 
 sdk/src/sl_lidar_driver.i: sdk/src/sl_lidar_driver.cpp.i
@@ -659,7 +920,11 @@ sdk/src/sl_lidar_driver.i: sdk/src/sl_lidar_driver.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_lidar_driver.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidar_driver.cpp.i
 
 sdk/src/sl_lidar_driver.s: sdk/src/sl_lidar_driver.cpp.s
@@ -668,7 +933,11 @@ sdk/src/sl_lidar_driver.s: sdk/src/sl_lidar_driver.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_lidar_driver.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidar_driver.cpp.s
 
 sdk/src/sl_lidarprotocol_codec.o: sdk/src/sl_lidarprotocol_codec.cpp.o
@@ -677,7 +946,11 @@ sdk/src/sl_lidarprotocol_codec.o: sdk/src/sl_lidarprotocol_codec.cpp.o
 
 # target to build an object file
 sdk/src/sl_lidarprotocol_codec.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidarprotocol_codec.cpp.o
 
 sdk/src/sl_lidarprotocol_codec.i: sdk/src/sl_lidarprotocol_codec.cpp.i
@@ -686,7 +959,11 @@ sdk/src/sl_lidarprotocol_codec.i: sdk/src/sl_lidarprotocol_codec.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_lidarprotocol_codec.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidarprotocol_codec.cpp.i
 
 sdk/src/sl_lidarprotocol_codec.s: sdk/src/sl_lidarprotocol_codec.cpp.s
@@ -695,7 +972,11 @@ sdk/src/sl_lidarprotocol_codec.s: sdk/src/sl_lidarprotocol_codec.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_lidarprotocol_codec.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_lidarprotocol_codec.cpp.s
 
 sdk/src/sl_serial_channel.o: sdk/src/sl_serial_channel.cpp.o
@@ -704,7 +985,11 @@ sdk/src/sl_serial_channel.o: sdk/src/sl_serial_channel.cpp.o
 
 # target to build an object file
 sdk/src/sl_serial_channel.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_serial_channel.cpp.o
 
 sdk/src/sl_serial_channel.i: sdk/src/sl_serial_channel.cpp.i
@@ -713,7 +998,11 @@ sdk/src/sl_serial_channel.i: sdk/src/sl_serial_channel.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_serial_channel.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_serial_channel.cpp.i
 
 sdk/src/sl_serial_channel.s: sdk/src/sl_serial_channel.cpp.s
@@ -722,7 +1011,11 @@ sdk/src/sl_serial_channel.s: sdk/src/sl_serial_channel.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_serial_channel.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_serial_channel.cpp.s
 
 sdk/src/sl_tcp_channel.o: sdk/src/sl_tcp_channel.cpp.o
@@ -731,7 +1024,11 @@ sdk/src/sl_tcp_channel.o: sdk/src/sl_tcp_channel.cpp.o
 
 # target to build an object file
 sdk/src/sl_tcp_channel.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_tcp_channel.cpp.o
 
 sdk/src/sl_tcp_channel.i: sdk/src/sl_tcp_channel.cpp.i
@@ -740,7 +1037,11 @@ sdk/src/sl_tcp_channel.i: sdk/src/sl_tcp_channel.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_tcp_channel.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_tcp_channel.cpp.i
 
 sdk/src/sl_tcp_channel.s: sdk/src/sl_tcp_channel.cpp.s
@@ -749,7 +1050,11 @@ sdk/src/sl_tcp_channel.s: sdk/src/sl_tcp_channel.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_tcp_channel.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_tcp_channel.cpp.s
 
 sdk/src/sl_udp_channel.o: sdk/src/sl_udp_channel.cpp.o
@@ -758,7 +1063,11 @@ sdk/src/sl_udp_channel.o: sdk/src/sl_udp_channel.cpp.o
 
 # target to build an object file
 sdk/src/sl_udp_channel.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_udp_channel.cpp.o
 
 sdk/src/sl_udp_channel.i: sdk/src/sl_udp_channel.cpp.i
@@ -767,7 +1076,11 @@ sdk/src/sl_udp_channel.i: sdk/src/sl_udp_channel.cpp.i
 
 # target to preprocess a source file
 sdk/src/sl_udp_channel.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_udp_channel.cpp.i
 
 sdk/src/sl_udp_channel.s: sdk/src/sl_udp_channel.cpp.s
@@ -776,7 +1089,11 @@ sdk/src/sl_udp_channel.s: sdk/src/sl_udp_channel.cpp.s
 
 # target to generate assembly for a file
 sdk/src/sl_udp_channel.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : sdk/src/sl_udp_channel.cpp.s
 
 src/client.o: src/client.cpp.o
@@ -785,7 +1102,11 @@ src/client.o: src/client.cpp.o
 
 # target to build an object file
 src/client.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/client.cpp.o
 
 src/client.i: src/client.cpp.i
@@ -794,7 +1115,11 @@ src/client.i: src/client.cpp.i
 
 # target to preprocess a source file
 src/client.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/client.cpp.i
 
 src/client.s: src/client.cpp.s
@@ -803,7 +1128,11 @@ src/client.s: src/client.cpp.s
 
 # target to generate assembly for a file
 src/client.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : src/client.cpp.s
 
 src/node.o: src/node.cpp.o
@@ -812,7 +1141,11 @@ src/node.o: src/node.cpp.o
 
 # target to build an object file
 src/node.cpp.o:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o
+>>>>>>> Upload all file run on pi
 .PHONY : src/node.cpp.o
 
 src/node.i: src/node.cpp.i
@@ -821,7 +1154,11 @@ src/node.i: src/node.cpp.i
 
 # target to preprocess a source file
 src/node.cpp.i:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.i
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.i
+>>>>>>> Upload all file run on pi
 .PHONY : src/node.cpp.i
 
 src/node.s: src/node.cpp.s
@@ -830,7 +1167,11 @@ src/node.s: src/node.cpp.s
 
 # target to generate assembly for a file
 src/node.cpp.s:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.s
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f rplidar_ros/CMakeFiles/rplidarNode.dir/build.make rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.s
+>>>>>>> Upload all file run on pi
 .PHONY : src/node.cpp.s
 
 # Help Target
@@ -923,6 +1264,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

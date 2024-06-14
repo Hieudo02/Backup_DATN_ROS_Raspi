@@ -3,14 +3,23 @@
 
 <!-- Here we define the model parameters -->
     <!-- Geometry -->
+<<<<<<< HEAD
     <xacro:property name="base_link_width" value="0.4"/>
     <xacro:property name="base_link_length" value="0.4"/>
+=======
+    <xacro:property name="base_link_width" value="0.44"/>
+    <xacro:property name="base_link_length" value="0.48"/>
+>>>>>>> Upload all file run on pi
     <xacro:property name="base_link_height" value="0.05"/>
 
     <xacro:property name="wheel_link_length" value="0.03"/>
     <xacro:property name="wheel_link_radius" value="0.05"/>
 
+<<<<<<< HEAD
     <xacro:property name="caster_link_radius" value="0.05"/>
+=======
+    <xacro:property name="caster_link_radius" value="0.25"/>
+>>>>>>> Upload all file run on pi
 
     <!-- Pi Constant -->
     <xacro:property name="PI" value="3.14159265"/>
@@ -237,7 +246,11 @@
     <link name="laser">
         <visual>
             <geometry>
+<<<<<<< HEAD
                 <mesh filename="package://robot_model/meshes/Hieuneee.dae"/>
+=======
+                <mesh filename="package://robot_model_pkg/meshes/Hieuneee.dae"/>
+>>>>>>> Upload all file run on pi
             </geometry>
         </visual>
 

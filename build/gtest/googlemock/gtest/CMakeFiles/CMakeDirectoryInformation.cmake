@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/pi/datn_navbot/build")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/pi/datn_navbot_pi/build")
+>>>>>>> Upload all file run on pi
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -63,10 +70,18 @@ rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp_generate_
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot/src /home/pi/datn_navbot/src/rplidar_ros /home/pi/datn_navbot/build /home/pi/datn_navbot/build/rplidar_ros /home/pi/datn_navbot/build/rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/pi/datn_navbot_pi/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+.PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/datn_navbot_pi/src /home/pi/datn_navbot_pi/src/rplidar_ros /home/pi/datn_navbot_pi/build /home/pi/datn_navbot_pi/build/rplidar_ros /home/pi/datn_navbot_pi/build/rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> Upload all file run on pi
 .PHONY : rplidar_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/navstack_pub/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/navstack_pub/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ dynamic_reconfigure_generate_messages_lisp: navstack_pub/CMakeFiles/dynamic_reco
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +235,20 @@ dynamic_reconfigure_generate_messages_eus: navstack_pub/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_gencfg.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_gencfg.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_gencfg.dir/rule
 
 # Convenience name for target.
@@ -209,12 +258,20 @@ move_base_gencfg: navstack_pub/CMakeFiles/move_base_gencfg.dir/rule
 
 # fast build rule for target.
 move_base_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_gencfg.dir/build.make navstack_pub/CMakeFiles/move_base_gencfg.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_gencfg.dir/build.make navstack_pub/CMakeFiles/move_base_gencfg.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_gencfg/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -224,12 +281,20 @@ dynamic_reconfigure_generate_messages_nodejs: navstack_pub/CMakeFiles/dynamic_re
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -239,12 +304,20 @@ dynamic_reconfigure_gencfg: navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.d
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -254,12 +327,20 @@ dynamic_reconfigure_generate_messages_py: navstack_pub/CMakeFiles/dynamic_reconf
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -269,12 +350,20 @@ move_base_msgs_generate_messages_eus: navstack_pub/CMakeFiles/move_base_msgs_gen
 
 # fast build rule for target.
 move_base_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -284,12 +373,20 @@ move_base_msgs_generate_messages_lisp: navstack_pub/CMakeFiles/move_base_msgs_ge
 
 # fast build rule for target.
 move_base_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +396,20 @@ move_base_msgs_generate_messages_cpp: navstack_pub/CMakeFiles/move_base_msgs_gen
 
 # fast build rule for target.
 move_base_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +419,20 @@ move_base_msgs_generate_messages_nodejs: navstack_pub/CMakeFiles/move_base_msgs_
 
 # fast build rule for target.
 move_base_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +442,20 @@ dynamic_reconfigure_generate_messages_cpp: navstack_pub/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make navstack_pub/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -344,7 +465,11 @@ move_base_msgs_generate_messages_py: navstack_pub/CMakeFiles/move_base_msgs_gene
 
 # fast build rule for target.
 move_base_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navstack_pub/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : move_base_msgs_generate_messages_py/fast
 
 # Help Target
@@ -383,6 +508,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

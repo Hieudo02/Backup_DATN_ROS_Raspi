@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/pi/datn_navbot/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pi/datn_navbot/build
+=======
+CMAKE_SOURCE_DIR = /home/pi/datn_navbot_pi/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/pi/datn_navbot_pi/build
+>>>>>>> Upload all file run on pi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles /home/pi/datn_navbot/build/robot_model/CMakeFiles/progress.marks
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot/build/CMakeFiles 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles /home/pi/datn_navbot_pi/build/robot_model/CMakeFiles/progress.marks
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/datn_navbot_pi/build/CMakeFiles 0
+>>>>>>> Upload all file run on pi
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/clean
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/clean
+>>>>>>> Upload all file run on pi
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +171,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/preinstall
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/preinstall
+>>>>>>> Upload all file run on pi
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> Upload all file run on pi
 .PHONY : depend
 
 # Convenience name for target.
 robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +212,20 @@ std_srvs_generate_messages_lisp: robot_model/CMakeFiles/std_srvs_generate_messag
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +235,20 @@ std_srvs_generate_messages_eus: robot_model/CMakeFiles/std_srvs_generate_message
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : std_srvs_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/rviz_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/rviz_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -209,12 +258,20 @@ rviz_generate_messages_py: robot_model/CMakeFiles/rviz_generate_messages_py.dir/
 
 # fast build rule for target.
 rviz_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_py.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_py.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_generate_messages_py/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +281,20 @@ visualization_msgs_generate_messages_cpp: robot_model/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -239,12 +304,20 @@ std_srvs_generate_messages_py: robot_model/CMakeFiles/std_srvs_generate_messages
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +327,20 @@ rviz_generate_messages_nodejs: robot_model/CMakeFiles/rviz_generate_messages_nod
 
 # fast build rule for target.
 rviz_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_generate_messages_nodejs/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -269,12 +350,20 @@ std_srvs_generate_messages_nodejs: robot_model/CMakeFiles/std_srvs_generate_mess
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -284,12 +373,20 @@ rviz_generate_messages_lisp: robot_model/CMakeFiles/rviz_generate_messages_lisp.
 
 # fast build rule for target.
 rviz_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +396,20 @@ std_srvs_generate_messages_cpp: robot_model/CMakeFiles/std_srvs_generate_message
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/rviz_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/rviz_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -314,12 +419,20 @@ rviz_generate_messages_eus: robot_model/CMakeFiles/rviz_generate_messages_eus.di
 
 # fast build rule for target.
 rviz_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_eus.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_eus.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +442,20 @@ rviz_generate_messages_cpp: robot_model/CMakeFiles/rviz_generate_messages_cpp.di
 
 # fast build rule for target.
 rviz_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/rviz_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : rviz_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -344,12 +465,20 @@ visualization_msgs_generate_messages_lisp: robot_model/CMakeFiles/visualization_
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -359,12 +488,20 @@ map_msgs_generate_messages_nodejs: robot_model/CMakeFiles/map_msgs_generate_mess
 
 # fast build rule for target.
 map_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : map_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -374,12 +511,20 @@ map_msgs_generate_messages_lisp: robot_model/CMakeFiles/map_msgs_generate_messag
 
 # fast build rule for target.
 map_msgs_generate_messages_lisp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : map_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +534,20 @@ visualization_msgs_generate_messages_nodejs: robot_model/CMakeFiles/visualizatio
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -404,12 +557,20 @@ visualization_msgs_generate_messages_py: robot_model/CMakeFiles/visualization_ms
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +580,20 @@ map_msgs_generate_messages_cpp: robot_model/CMakeFiles/map_msgs_generate_message
 
 # fast build rule for target.
 map_msgs_generate_messages_cpp/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : map_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -434,12 +603,20 @@ map_msgs_generate_messages_eus: robot_model/CMakeFiles/map_msgs_generate_message
 
 # fast build rule for target.
 map_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : map_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -449,12 +626,20 @@ visualization_msgs_generate_messages_eus: robot_model/CMakeFiles/visualization_m
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make robot_model/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/rule:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/rule
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f CMakeFiles/Makefile2 robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/rule
+>>>>>>> Upload all file run on pi
 .PHONY : robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -464,7 +649,11 @@ map_msgs_generate_messages_py: robot_model/CMakeFiles/map_msgs_generate_messages
 
 # fast build rule for target.
 map_msgs_generate_messages_py/fast:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/build
+=======
+	cd /home/pi/datn_navbot_pi/build && $(MAKE) -f robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/build.make robot_model/CMakeFiles/map_msgs_generate_messages_py.dir/build
+>>>>>>> Upload all file run on pi
 .PHONY : map_msgs_generate_messages_py/fast
 
 # Help Target
@@ -511,6 +700,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/pi/datn_navbot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/pi/datn_navbot_pi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Upload all file run on pi
 .PHONY : cmake_check_build_system
 

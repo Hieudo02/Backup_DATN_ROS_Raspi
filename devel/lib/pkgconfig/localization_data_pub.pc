@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 prefix=/home/pi/datn_navbot/devel
+=======
+prefix=/home/pi/datn_navbot_pi/devel
+>>>>>>> Upload all file run on pi
 
 Name: localization_data_pub
 Description: Description of localization_data_pub

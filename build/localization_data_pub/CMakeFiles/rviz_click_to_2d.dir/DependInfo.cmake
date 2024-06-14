@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/pi/datn_navbot/src/localization_data_pub/src/rviz_click_to_2d.cpp" "/home/pi/datn_navbot/build/localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o"
+=======
+  "/home/pi/datn_navbot_pi/src/localization_data_pub/src/rviz_click_to_2d.cpp" "/home/pi/datn_navbot_pi/build/localization_data_pub/CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o"
+>>>>>>> Upload all file run on pi
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

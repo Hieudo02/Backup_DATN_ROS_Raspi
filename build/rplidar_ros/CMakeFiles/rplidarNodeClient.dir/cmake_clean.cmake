@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
+<<<<<<< HEAD
   "/home/pi/datn_navbot/devel/lib/rplidar_ros/rplidarNodeClient"
   "/home/pi/datn_navbot/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
+=======
+  "/home/pi/datn_navbot_pi/devel/lib/rplidar_ros/rplidarNodeClient"
+  "/home/pi/datn_navbot_pi/devel/lib/rplidar_ros/rplidarNodeClient.pdb"
+>>>>>>> Upload all file run on pi
   "CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
 )
 

@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/pi/datn_navbot/src/rplidar_ros/src/client.cpp" "/home/pi/datn_navbot/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+=======
+  "/home/pi/datn_navbot_pi/src/rplidar_ros/src/client.cpp" "/home/pi/datn_navbot_pi/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+>>>>>>> Upload all file run on pi
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +21,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+<<<<<<< HEAD
   "/home/pi/datn_navbot/src/rplidar_ros/./sdk/include"
   "/home/pi/datn_navbot/src/rplidar_ros/./sdk/src"
+=======
+  "/home/pi/datn_navbot_pi/src/rplidar_ros/./sdk/include"
+  "/home/pi/datn_navbot_pi/src/rplidar_ros/./sdk/src"
+>>>>>>> Upload all file run on pi
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

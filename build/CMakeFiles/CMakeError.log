@@ -1,4 +1,5 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/pi/datn_navbot/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_8deaa/fast && /usr/bin/make -f CMakeFiles/cmTC_8deaa.dir/build.make CMakeFiles/cmTC_8deaa.dir/build
@@ -9,13 +10,31 @@ Linking C executable cmTC_8deaa
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8deaa.dir/link.txt --verbose=1
 /usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8deaa.dir/src.c.o  -o cmTC_8deaa 
 /usr/bin/ld: CMakeFiles/cmTC_8deaa.dir/src.c.o: in function `main':
+=======
+Change Dir: /home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa400/fast && /usr/bin/make -f CMakeFiles/cmTC_aa400.dir/build.make CMakeFiles/cmTC_aa400.dir/build
+make[1]: Entering directory '/home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa400.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aa400.dir/src.c.o   -c /home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa400
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa400.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_aa400.dir/src.c.o  -o cmTC_aa400 
+/usr/bin/ld: CMakeFiles/cmTC_aa400.dir/src.c.o: in function `main':
+>>>>>>> Upload all file run on pi
 src.c:(.text+0x34): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x3c): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x48): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
+<<<<<<< HEAD
 make[1]: *** [CMakeFiles/cmTC_8deaa.dir/build.make:87: cmTC_8deaa] Error 1
 make[1]: Leaving directory '/home/pi/datn_navbot/build/CMakeFiles/CMakeTmp'
 make: *** [Makefile:121: cmTC_8deaa/fast] Error 2
+=======
+make[1]: *** [CMakeFiles/cmTC_aa400.dir/build.make:87: cmTC_aa400] Error 1
+make[1]: Leaving directory '/home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aa400/fast] Error 2
+>>>>>>> Upload all file run on pi
 
 
 Source file was:
@@ -39,6 +58,7 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/pi/datn_navbot/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_9fae2/fast && /usr/bin/make -f CMakeFiles/cmTC_9fae2.dir/build.make CMakeFiles/cmTC_9fae2.dir/build
@@ -53,6 +73,22 @@ collect2: error: ld returned 1 exit status
 make[1]: *** [CMakeFiles/cmTC_9fae2.dir/build.make:87: cmTC_9fae2] Error 1
 make[1]: Leaving directory '/home/pi/datn_navbot/build/CMakeFiles/CMakeTmp'
 make: *** [Makefile:121: cmTC_9fae2/fast] Error 2
+=======
+Change Dir: /home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1837f/fast && /usr/bin/make -f CMakeFiles/cmTC_1837f.dir/build.make CMakeFiles/cmTC_1837f.dir/build
+make[1]: Entering directory '/home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1837f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1837f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1837f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1837f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1837f.dir/CheckFunctionExists.c.o  -o cmTC_1837f  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1837f.dir/build.make:87: cmTC_1837f] Error 1
+make[1]: Leaving directory '/home/pi/datn_navbot_pi/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1837f/fast] Error 2
+>>>>>>> Upload all file run on pi
 
 
 
